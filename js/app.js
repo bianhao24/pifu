@@ -14,8 +14,8 @@
 (function () {
   "use strict";
 
-  var FORM_CONFIG = {https:forminit.com/f/u6p36letnuf
-    endpoint: "", // 例如："https://forminit.com/f/YOUR_FORM_ID" 或旧版 "https://getform.io/f/YOUR_FORM_ID"
+  var FORM_CONFIG = {
+    endpoint: "https:forminit.com/f/u6p36letnuf", // 例如："https://forminit.com/f/YOUR_FORM_ID" 或旧版 "https://getform.io/f/YOUR_FORM_ID"
     fieldMode: "forminit" // "forminit"（Getform 新平台）或 "classic"（旧版 getform.io）
    };
 
