@@ -1,0 +1,281 @@
+{
+  "passed": 55,
+  "failed": 0,
+  "results": [
+    {
+      "name": "页面标题包含战队、赛事名与 2027",
+      "pass": true,
+      "details": "蚍蜉战队 2027 招新｜RoboMaster 机甲大师"
+    },
+    {
+      "name": "页面渲染五个组别",
+      "pass": true,
+      "details": "5"
+    },
+    {
+      "name": "五个组别共包含十五项核心职责",
+      "pass": true,
+      "details": "15"
+    },
+    {
+      "name": "队伍简介包含学校、赛事与建队年份",
+      "pass": true,
+      "details": "TEAM PROFILE / 队伍简介\n\n【蚍蜉战队】隶属于河北外国语学院，是学校面向 RoboMaster 机甲大师赛 组建的学生科技创新团队，成立于 2026 年。\n\n在这里，机械、电控、视觉、算法与运营不是五座孤岛，而是同一台战车上的五个系统。我们以真实赛事项目为课堂，在一次次设计、加工、调试与复盘中，把关于机器人的想象，变成赛场上真实运转的每一秒。"
+    },
+    {
+      "name": "队名释义完整展示",
+      "pass": true,
+      "details": "WHY PIFU / 队名释义\n“\n蚍蜉\n撼大树\n\n可敬不自量\n\nPIFU / THE WILL TO SHAKE\n\n队伍中文名“蚍蜉”，取自古语“蚍蜉撼大树”。蚍蜉虽渺小，却敢向参天大树发起挑战。这份明知不可为而为之的勇气，正是队名的精神内核。\n\n我们不认同“可笑不自量”的嘲讽，而愿将它翻作“可敬不自量”：真正的敬意"
+    },
+    {
+      "name": "页脚年份为 2027",
+      "pass": true,
+      "details": "2027"
+    },
+    {
+      "name": "报名表存在且进度归零",
+      "pass": true,
+      "details": "true 0%"
+    },
+    {
+      "name": "首屏动画正常出现",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "桌面端无横向溢出",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "空表单拦截并提示九个必填项",
+      "pass": true,
+      "details": "[\"请填写你的姓名。\",\"请填写你的专业。\",\"请填写手机号码。\",\"请填写邮箱地址。\",\"请选择一个面试部门。\",\"请填写自我介绍。\",\"请填写你的优势。\",\"请上传一张个人照片。\",\"请阅读并同意个人信息使用说明。\"]"
+    },
+    {
+      "name": "焦点移动到第一个错误项",
+      "pass": true,
+      "details": "name"
+    },
+    {
+      "name": "显示表单状态提示",
+      "pass": true,
+      "details": "请检查标记的必填项后再提交。"
+    },
+    {
+      "name": "隐私弹窗打开并锁定滚动",
+      "pass": true,
+      "details": "{\"open\":true,\"locked\":true}"
+    },
+    {
+      "name": "隐私弹窗关闭并恢复滚动",
+      "pass": true,
+      "details": "{\"open\":false,\"locked\":false}"
+    },
+    {
+      "name": "点击组件卡片选中电控组",
+      "pass": true,
+      "details": "{\"checked\":\"electrical\",\"cardPressed\":\"true\",\"action\":\"已选择 · 前往报名\",\"aside\":\"电控组\",\"code\":\"UNIT // ECU-01\",\"pickerSelected\":1,\"pickedValue\":\"electrical\",\"chips\":8,\"scrollY\":5265}"
+    },
+    {
+      "name": "卡片与表单部门选择同步",
+      "pass": true,
+      "details": "{\"checked\":\"electrical\",\"cardPressed\":\"true\",\"action\":\"已选择 · 前往报名\",\"aside\":\"电控组\",\"code\":\"UNIT // ECU-01\",\"pickerSelected\":1,\"pickedValue\":\"electrical\",\"chips\":8,\"scrollY\":5265}"
+    },
+    {
+      "name": "侧栏同步部门信息",
+      "pass": true,
+      "details": "电控组 UNIT // ECU-01"
+    },
+    {
+      "name": "能力标签随部门变化",
+      "pass": true,
+      "details": "8"
+    },
+    {
+      "name": "点击卡片后滚动至报名表",
+      "pass": true,
+      "details": "5265"
+    },
+    {
+      "name": "填写信息后进度为 89%",
+      "pass": true,
+      "details": "89% 8 / 9 项必填内容"
+    },
+    {
+      "name": "小字段计数器工作",
+      "pass": true,
+      "details": "58 / 600"
+    },
+    {
+      "name": "错误状态在输入后清除",
+      "pass": true,
+      "details": "0"
+    },
+    {
+      "name": "草稿自动保存且不含照片",
+      "pass": true,
+      "details": "{\"name\":\"王小明\",\"major\":\"机械设计制造及其自动化\",\"phone\":\"13800138000\",\"email\":\"xiaoming@example.com\",\"selfIntro\":\"我是一名机械专业的学生，喜欢机器人结构设计，参与过校内机器人项目，希望加入蚍蜉战队，把图纸变成真正能上赛场的机器人。\",\"advantages\":\"熟悉 SolidWorks 与 3D 打印，有机械装配和调试经验，愿意长期投入。\",\"department\":\"electrical\",\"abilities\":[],\"savedAt\":1795075785325}"
+    },
+    {
+      "name": "能力标签点击后选中",
+      "pass": true,
+      "details": "{\"pressed\":\"true\",\"active\":true}"
+    },
+    {
+      "name": "照片预览与空状态切换",
+      "pass": true,
+      "details": "{\"preview\":true,\"emptyHidden\":true,\"src\":\"blob:http://127.0.0.1:8765/42d1f2db-f505-4b82-945e-a3d90f7f11c8\",\"name\":\"test-photo.png\",\"size\":\"23 KB · 900 × 1100\",\"progress\":\"100%\",\"error\":\"\"}"
+    },
+    {
+      "name": "照片使用 Blob 预览",
+      "pass": true,
+      "details": "blob:http://127.0.0.1:8765/42d1f2db-f505-4b82-945e-a3d90f7f11c8"
+    },
+    {
+      "name": "照片名称和压缩信息显示",
+      "pass": true,
+      "details": "{\"preview\":true,\"emptyHidden\":true,\"src\":\"blob:http://127.0.0.1:8765/42d1f2db-f505-4b82-945e-a3d90f7f11c8\",\"name\":\"test-photo.png\",\"size\":\"23 KB · 900 × 1100\",\"progress\":\"100%\",\"error\":\"\"}"
+    },
+    {
+      "name": "上传照片后进度 100%",
+      "pass": true,
+      "details": "100%"
+    },
+    {
+      "name": "照片错误被清除",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "name": "提交后打开成功档案弹窗",
+      "pass": true,
+      "details": "{\"open\":true,\"name\":\"王小明\",\"dept\":\"电控组\",\"id\":\"PF-2027-1119-8Z5Q\",\"note\":\"当前为前端演示模式：报名信息仅保存在本机浏览器，尚未发送至战队服务器。配置接口后即可正式收集。\",\"submitDisabled\":true,\"submitLabel\":\"本次报名已提交\",\"records\":1,\"record\":{\"id\":\"PF-2027-1119-8Z5Q\",\"name\":\"王小明\",\"major\":\"机械设计制造及其自动化\",\"phone\":\"13800138000\",\"email\":\"xiaoming@example.com\",\"departmentKey\":\"electrical\",\"department\":\"电控组\",\"departmentCode\":\"ECU-01\",\"selfIntro\":\"我是一名机械专业的学生，喜欢机器人结构设计，参与过校内机器人项目，希望加入蚍蜉战队，把图纸变成真正能上赛场的机器人。\",\"advantages\":\"熟悉 SolidWorks 与 3D 打印，有机械装配和调试经验，愿意长期投入。\",\"abilities\":[\"C / C++\"],\"photoName\":\"test-photo.png\",\"submittedAt\":\"2026-11-19T08:09:46.982Z\",\"submittedAtLabel\":\"2026/11/19 16:09\",\"source\":\"pifu-2027-web\"},\"draft\":null,\"locked\":true}"
+    },
+    {
+      "name": "弹窗展示姓名与部门",
+      "pass": true,
+      "details": "王小明 / 电控组"
+    },
+    {
+      "name": "报名编号格式正确且使用 2027 赛季",
+      "pass": true,
+      "details": "PF-2027-1119-8Z5Q"
+    },
+    {
+      "name": "演示模式本地保存记录",
+      "pass": true,
+      "details": "{\"id\":\"PF-2027-1119-8Z5Q\",\"name\":\"王小明\",\"major\":\"机械设计制造及其自动化\",\"phone\":\"13800138000\",\"email\":\"xiaoming@example.com\",\"departmentKey\":\"electrical\",\"department\":\"电控组\",\"departmentCode\":\"ECU-01\",\"selfIntro\":\"我是一名机械专业的学生，喜欢机器人结构设计，参与过校内机器人项目，希望加入蚍蜉战队，把图纸变成真正能上赛场的机器人。\",\"advantages\":\"熟悉 SolidWorks 与 3D 打印，有机械装配和调试经验，愿意长期投入。\",\"abilities\":[\"C / C++\"],\"photoName\":\"test-photo.png\",\"submittedAt\":\"2026-11-19T08:09:46.982Z\",\"submittedAtLabel\":\"2026/11/19 16:09\",\"source\":\"pifu-2027-web\"}"
+    },
+    {
+      "name": "记录包含能力标签",
+      "pass": true,
+      "details": "[\"C / C++\"]"
+    },
+    {
+      "name": "演示模式明确提示未上传服务器",
+      "pass": true,
+      "details": "当前为前端演示模式：报名信息仅保存在本机浏览器，尚未发送至战队服务器。配置接口后即可正式收集。"
+    },
+    {
+      "name": "提交后锁定按钮并清除草稿",
+      "pass": true,
+      "details": "true null 本次报名已提交"
+    },
+    {
+      "name": "清空后表单与选中状态复位",
+      "pass": true,
+      "details": "{\"name\":\"\",\"deptChecked\":false,\"selectedOptions\":0,\"cardPressed\":0,\"aside\":\"等待选择\",\"progress\":\"0%\",\"photoHidden\":true,\"disabled\":false,\"submitLabel\":\"提交报名\",\"errors\":0}"
+    },
+    {
+      "name": "清空后侧栏与进度复位",
+      "pass": true,
+      "details": "等待选择 0%"
+    },
+    {
+      "name": "清空后照片移除且可重新提交",
+      "pass": true,
+      "details": "{\"name\":\"\",\"deptChecked\":false,\"selectedOptions\":0,\"cardPressed\":0,\"aside\":\"等待选择\",\"progress\":\"0%\",\"photoHidden\":true,\"disabled\":false,\"submitLabel\":\"提交报名\",\"errors\":0}"
+    },
+    {
+      "name": "清空后所有错误消失",
+      "pass": true,
+      "details": "0"
+    },
+    {
+      "name": "错误手机号提示",
+      "pass": true,
+      "details": "请输入有效的 11 位手机号码。"
+    },
+    {
+      "name": "错误邮箱提示",
+      "pass": true,
+      "details": "请输入有效的邮箱地址，例如 name@example.com。"
+    },
+    {
+      "name": "错误字段 aria-invalid 设置",
+      "pass": true,
+      "details": "{\"phone\":\"请输入有效的 11 位手机号码。\",\"email\":\"请输入有效的邮箱地址，例如 name@example.com。\",\"phoneAttr\":\"true\",\"emailAttr\":\"true\"}"
+    },
+    {
+      "name": "桌面端无运行时报错",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "name": "刷新后恢复草稿内容",
+      "pass": true,
+      "details": "{\"name\":\"草稿测试\",\"major\":\"自动化\",\"dept\":\"视觉组\",\"radio\":\"vision\",\"pickerSelected\":1,\"progress\":\"33%\"}"
+    },
+    {
+      "name": "刷新后恢复部门选择样式",
+      "pass": true,
+      "details": "{\"name\":\"草稿测试\",\"major\":\"自动化\",\"dept\":\"视觉组\",\"radio\":\"vision\",\"pickerSelected\":1,\"progress\":\"33%\"}"
+    },
+    {
+      "name": "草稿恢复无运行时报错",
+      "pass": true,
+      "details": "[]"
+    },
+    {
+      "name": "移动端无横向溢出",
+      "pass": true,
+      "details": "390/390"
+    },
+    {
+      "name": "移动端清空按钮包含文案并可点击",
+      "pass": true,
+      "details": "{\"w\":71,\"h\":34,\"text\":\"清空表单\"}"
+    },
+    {
+      "name": "移动端宣言标题两行自然排版",
+      "pass": true,
+      "details": "\"微小，是我们的\\n起点。不是终点。\""
+    },
+    {
+      "name": "移动端照片按钮占满可用宽度",
+      "pass": true,
+      "details": "282"
+    },
+    {
+      "name": "移动端菜单打开且锁定滚动",
+      "pass": true,
+      "details": "{\"hidden\":false,\"expanded\":\"true\",\"locked\":true,\"links\":4}"
+    },
+    {
+      "name": "移动端菜单有四个入口",
+      "pass": true,
+      "details": "4"
+    },
+    {
+      "name": "点击菜单项自动关闭并跳转",
+      "pass": true,
+      "details": "{\"hidden\":true,\"expanded\":\"false\",\"locked\":false,\"scrollY\":983}"
+    },
+    {
+      "name": "移动端无运行时报错",
+      "pass": true,
+      "details": "[]"
+    }
+  ]
+}

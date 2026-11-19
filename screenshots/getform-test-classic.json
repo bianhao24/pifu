@@ -1,0 +1,57 @@
+{
+  "mode": "classic",
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "请求已到达表单后台",
+      "pass": true,
+      "details": "[{\"receivedAt\":\"2026-11-19T08:09:19.122Z\",\"contentType\":\"multipart/form-data; boundary=----WebKitFormBoundary3fnLsDT2X9yHFV3y\",\"accept\":\"application/json\",\"fields\":{\"_gotcha\":\"\",\"name\":\"王小明\",\"major\":\"计算机科学与技术\",\"phone\":\"13800138000\",\"email\":\"xiaoming@example.com\",\"department\":\"视觉组\",\"selfIntro\":\"我是一名计"
+    },
+    {
+      "name": "请求带 Accept application/json",
+      "pass": true,
+      "details": "application/json"
+    },
+    {
+      "name": "旧版模式使用普通字段名",
+      "pass": true,
+      "details": "[\"_gotcha\",\"name\",\"major\",\"phone\",\"email\",\"department\",\"selfIntro\",\"advantages\",\"source\",\"abilities\"]"
+    },
+    {
+      "name": "旧版模式专业与部门字段",
+      "pass": true,
+      "details": "{\"major\":\"计算机科学与技术\",\"department\":\"视觉组\"}"
+    },
+    {
+      "name": "旧版模式能力为数组",
+      "pass": true,
+      "details": "[\"Python\",\"OpenCV\"]"
+    },
+    {
+      "name": "旧版模式照片字段",
+      "pass": true,
+      "details": "[{\"name\":\"photo\",\"filename\":\"portrait.jpg\",\"size\":11131}]"
+    },
+    {
+      "name": "旧版模式蜜罐字段",
+      "pass": true,
+      "details": "\"\""
+    },
+    {
+      "name": "旧版模式成功弹窗含编号",
+      "pass": true,
+      "details": "GF-TESTHASH0000"
+    },
+    {
+      "name": "提交状态为成功",
+      "pass": true,
+      "details": "报名信息已提交，感谢你的加入意向。"
+    },
+    {
+      "name": "无运行时报错",
+      "pass": true,
+      "details": "[]"
+    }
+  ]
+}
