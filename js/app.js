@@ -17,7 +17,7 @@
   var FORM_CONFIG = {
     endpoint: "", // 例如："https://forminit.com/f/YOUR_FORM_ID" 或旧版 "https://getform.io/f/YOUR_FORM_ID"
     fieldMode: "forminit" // "forminit"（Getform 新平台）或 "classic"（旧版 getform.io）
-  };
+   };
 
   var RECRUIT_YEAR = "2027";
 
